@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -22,8 +23,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="24sp"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
         tools:text="After We Collided" />
 
     <TextView
@@ -34,6 +35,6 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        tools:text="Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever."
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        tools:text="Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever." />
 </RelativeLayout>
