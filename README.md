@@ -53,8 +53,7 @@ Describe any challenges encountered while building the app.
 
 <img src="Flixster.gif" width=250><br>
 
-### Notes
-Describe any challenges encountered while building the app.
+
 
 ### Open-source libraries used
 
